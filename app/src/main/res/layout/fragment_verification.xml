@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_verification_number"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:fontFamily="@font/extra_light"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_your_sms_messages_we_have_sent"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/extra_light"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_the_code_to_your_phone_number"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/extra_light"/>
+
+
+
+
+    <com.chaos.view.PinView
+        android:id="@+id/firstPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:cursorVisible="true"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:cursorColor="@color/shape_text"
+        app:itemCount="4"
+        app:itemHeight="@dimen/_50sdp"
+        app:itemRadius="@dimen/_5sdp"
+        app:itemWidth="@dimen/_50sdp"
+        app:lineColor="@color/shape_text"
+        app:lineWidth="@dimen/_1sdp"
+        app:viewType="rectangle" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:background="@drawable/shape_butten_color"
+        android:textColor="@android:color/white"
+        android:text="@string/verify"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp">
+
+
+        <TextView
+            android:id="@+id/fragment_verification_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/didn_t_receive_sms"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/extra_light"/>
+
+
+
+
+        <TextView
+            android:id="@+id/fragment_verification_tv_resend_code"
+            android:layout_toEndOf="@+id/fragment_verification_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_code"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/extra_light"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

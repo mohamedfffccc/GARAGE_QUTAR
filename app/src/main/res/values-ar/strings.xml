@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">كراج قطر</string>
+    <string name="skip">تخطئ</string>
+    <string name="SIGN_UP">انشاء حساب</string>
+    <string name="you_are_a_user"> مستخدم</string>
+    <string name="you_are_a_garage_other"> هل انتا صاحب كراج / اخري</string>
+    <string name="login"> تسجيل دخول</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="did_you_have_not_registered_before">هل لم تسجل من قبل؟</string>
+    <string name="did_you_registered_before">هل قمت بالتسجيل من قبل؟</string>
+    <string name="user_name">الاسم بالكامل</string>
+    <string name="login_to_discover_more_features_in_our_app">تسجيل الدخول لاكتشاف المزيد من الميزات في التطبيق لدينا</string>
+    <string name="choose_who_you_are_to_sign_up">اختر من أنت للتسجيل</string>
+    <string name="who_you_are">من أنت؟</string>
+    <string name="you_the_code_to_your_phone_number">لك الرمز إلى رقم هاتفك</string>
+    <string name="enter_verification_number">أدخل رقم التحقق</string>
+    <string name="check_your_sms_messages_we_have_sent">تحقق من رسائل SMS الخاصة بك ، لقد أرسلنا</string>
+    <string name="verify">تحقق</string>
+    <string name="didn_t_receive_sms">لم أتلق الرسائل القصيرة ؟</string>
+    <string name="resend_code">أعد إرسال الرمز ؟</string>
+    <string name="fill_out_these_personal_information_fields">املأ حقول المعلومات الشخصية هذه</string>
+    <string name="step_1_3">الخطوة 1 / 3 </string>
+    <string name="email">البريد الاكتروني</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="next">التالي</string>
+    <string name="step_2_3">الخطوة 3 / 2 </string>
+    <string name="business_name">الاسم التجاري</string>
+    <string name="fill_out_these_business_information_fields">املأ حقول معلومات العمل هذه</string>
+    <string name="business_phone_number">عدد الأعمال الهاتف</string>
+    <string name="business_service">خدمة رجال الأعمال</string>
+    <string name="fill_out_these_location_information_fields">املأ حقول معلومات الموقع هذه</string>
+    <string name="area_name">اسم المنطقة</string>
+    <string name="floor_number">رقم الدور</string>
+    <string name="step_3_3">الخطوة 3 / 3</string>
+</resources>

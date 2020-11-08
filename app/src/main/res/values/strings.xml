@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Garage Qatar</string>
+    <string name="skip">SKIP</string>
+    <string name="SIGN_UP">SIGN UP</string>
+    <string name="you_are_a_user">You are a user</string>
+    <string name="you_are_a_garage_other">You are a garage / other</string>
+    <string name="login">LOG IN</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="did_you_have_not_registered_before">Did you have not registered before ?</string>
+    <string name="did_you_registered_before">Did you registered before ?</string>
+    <string name="user_name">User Name</string>
+    <string name="login_to_discover_more_features_in_our_app">Login to discover more features in our app</string>
+    <string name="choose_who_you_are_to_sign_up">Choose who you are to sign up</string>
+    <string name="who_you_are">WHO YOU ARE?</string>
+    <string name="you_the_code_to_your_phone_number">you the code to your phone number</string>
+    <string name="enter_verification_number">Enter Verification Number</string>
+    <string name="check_your_sms_messages_we_have_sent">Check Your SMS messages, We have Sent</string>
+    <string name="verify">VERIFY</string>
+    <string name="didn_t_receive_sms">Didn\'t receive SMS ?</string>
+    <string name="resend_code"> Resend Code  ? </string>
+    <string name="fill_out_these_personal_information_fields">Fill out these personal information fields</string>
+    <string name="step_1_3">Step 1 / 3</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">NEXT</string>
+    <string name="step_2_3">Step 2 / 3</string>
+    <string name="business_name">Business Name</string>
+    <string name="fill_out_these_business_information_fields">Fill out these business information fields</string>
+    <string name="business_phone_number">Business Phone Number</string>
+    <string name="business_service">Business Service</string>
+    <string name="fill_out_these_location_information_fields">Fill out these Location information fields</string>
+    <string name="area_name">Area Name</string>
+    <string name="floor_number">Floor Number</string>
+    <string name="step_3_3">Step 3 / 3</string>
+</resources>

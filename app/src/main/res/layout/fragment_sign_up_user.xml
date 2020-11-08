@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="locale">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/fragment_sign_up_user_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fragment_sign_up_user_btn_loginiv_bake"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_arrow"
+                android:layout_centerVertical="true"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/SIGN_UP"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12ssp"/>
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <ScrollView
+        android:layout_below="@+id/fragment_sign_up_user_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <ImageView
+                android:id="@+id/fragment_sign_up_user_iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_220sdp"
+                android:src="@drawable/icon_logo" />
+
+
+
+            <EditText
+                android:id="@+id/fragment_sign_up_user_tv_user_name"
+                android:layout_below="@+id/fragment_sign_up_user_iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_name"
+                android:background="@drawable/shape_text"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:drawableStart="@drawable/ic_user"
+                android:inputType="text"
+                android:fontFamily="@font/extra_light"
+                />
+
+
+
+
+            <EditText
+                android:id="@+id/fragment_sign_up_user_tv_phone_number"
+                android:layout_below="@+id/fragment_sign_up_user_tv_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:background="@drawable/shape_text"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:drawableStart="@drawable/ic_phone"
+                android:inputType="number"
+                android:fontFamily="@font/extra_light"
+                />
+
+
+
+            <EditText
+                android:id="@+id/fragment_sign_up_user_tv_password"
+                android:layout_below="@+id/fragment_sign_up_user_tv_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:background="@drawable/shape_text"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:drawableStart="@drawable/ic_password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/extra_light"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/fragment_sign_up_user_btn_sign_uP"
+                android:layout_below="@+id/fragment_sign_up_user_tv_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SIGN_UP"
+                android:background="@drawable/shape_butten_color"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14ssp"
+                android:fontFamily="@font/extra_light"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_sign_up_user_btn_sign_uP"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true">
+
+
+
+
+                <TextView
+                    android:id="@+id/fragment_sign_up_user_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/did_you_registered_before" />
+
+
+
+                <TextView
+                    android:layout_toEndOf="@+id/fragment_sign_up_user_tv"
+                    android:id="@+id/fragment_sign_up_user_tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/login"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/_5sdp"/>
+
+
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

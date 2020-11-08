@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.GarageOrUserActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+
+
+        <ImageView
+            android:id="@+id/fragment_deskavre_3_iv_bake"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_arrow"
+            android:layout_margin="@dimen/_10sdp"/>
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:src="@drawable/logo_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_60sdp"/>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_linear"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/who_you_are"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18ssp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_who_you_are_to_sign_up"
+            android:textColor="#454444"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_5sdp"/>
+
+
+
+        <Button
+            android:id="@+id/activity_garage_or_user_btn_you_are_a_garage_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:text="@string/you_are_a_garage_other"
+            android:textAllCaps="false"
+            android:fontFamily="@font/extra_light"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape_butten_color"/>
+
+
+
+        <Button
+            android:id="@+id/activity_garage_or_user_btn_you_are_a_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/you_are_a_user"
+            android:textAllCaps="false"
+            android:fontFamily="@font/extra_light"
+            android:textColor="@android:color/black"
+            android:background="@drawable/shape_butten"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
